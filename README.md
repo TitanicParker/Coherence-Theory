@@ -1,2 +1,12 @@
-# Coherence-Theory
-A project developing a geometric account of coherence: how understanding arises, moves, and stabilises through a small set of structural operations. Coherence Theory studies sentences as the simplest place where this underlying geometry becomes visible and testable.
+## Core structure 
+
+For readers who want a little more detail, the core working structure
+is sketched in `docs/`:
+
+- `docs/theory.md` — minimal statement of what Coherence Theory claims.
+- `docs/operators.md` — brief note on the six operators.
+- `docs/invariants-6x3x3.md` — how the 54 invariants are arranged
+  as 6 operators × 3 submodes × 3 invariants.
+
+These documents are intentionally sparse and will be expanded as the
+theory is clarified.
