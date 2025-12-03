@@ -1,28 +1,55 @@
-BSD 3-Clause License
+Coherence Theory Public Draft License 
+-----------------------------------------
 
-Copyright (c) 2025, TitanicParker
+Copyright (c) 2025 Liam Moloney (GitHub: TitanicParker)
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+1. Scope
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+This license applies to all files in this repository unless a file
+explicitly states otherwise.
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+2. Permission to use and share
 
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
+You are allowed to:
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+- read and study the contents of this repository;
+- share unmodified copies of the repository or of individual files;
+- quote reasonable portions of the text in your own work,
+
+provided that you clearly attribute the material to:
+
+  "Coherence Theory, Liam Moloney, first public release on GitHub."
+
+3. Derivative work
+
+You may write about the ideas in this repository and you may develop
+your own work inspired by them.
+
+You may not present modified versions of the files in this repository
+as if they were the original work. If you publish material that builds
+directly on text or structure from this repository, you must:
+
+- state clearly that your work is a derivative or interpretation; and
+- avoid any suggestion that the original author endorses your version.
+
+4. No endorsement
+
+The name of the author, and the name "Coherence Theory", may not be
+used to endorse or promote any derivative work without explicit
+written permission.
+
+5. No warranty
+
+This material is provided "as is", without warranty of any kind,
+express or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose, and noninfringement.
+In no event shall the author be liable for any claim, damages, or other
+liability, whether in an action of contract, tort, or otherwise,
+arising from, out of, or in connection with the material or the use or
+other dealings in the material.
+
+6. Future versions
+
+The author may publish later versions of this license. New versions do
+not retroactively change the terms under which previously released
+versions of this repository were made available.
