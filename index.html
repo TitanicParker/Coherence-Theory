@@ -7,96 +7,130 @@
   <meta name="description"
         content="Coherence Theory: a geometric account of what it means for something to make sense, with operators, invariants, and sentence-walking as its core tools.">
   <style>
-    :root {
-      --fg: #111;
-      --muted: #555;
-      --border: #ddd;
-      --bg: #fafafa;
-    }
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      max-width: 960px;
-      margin: 2.5rem auto;
-      padding: 0 1rem 3rem;
-      line-height: 1.6;
-      color: var(--fg);
-      background: #fff;
-    }
-    header {
-      margin-bottom: 2rem;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.2rem;
-    }
-    h2 {
-      margin-top: 2rem;
-      font-size: 1.4rem;
-    }
-    h3 {
-      margin-top: 1rem;
-      font-size: 1.1rem;
-    }
-    .subtitle {
-      color: var(--muted);
-      margin-bottom: 1.25rem;
-    }
-    .tagline {
-      font-style: italic;
-      margin-bottom: 1.75rem;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 1rem;
-      margin-top: 1rem;
-    }
-    .card {
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.1rem;
-      background: var(--bg);
-    }
-    .card h3 {
-      margin-top: 0;
-      margin-bottom: 0.4rem;
-    }
-    .card p {
-      margin: 0.3rem 0;
-    }
-    .mini {
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-    a {
-      color: inherit;
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 2px;
-    }
-    code {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 0.9em;
-    }
-    nav {
-      margin: 1.5rem 0 0.5rem;
-      font-size: 0.95rem;
-    }
-    nav a {
-      margin-right: 1rem;
-      white-space: nowrap;
-    }
-    footer {
-      margin-top: 3rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-      color: var(--muted);
-    }
-  </style>
+  :root {
+    --bg: #0b0f14;
+    --ink: #e6f6ef;
+    --mint: #68ffb3;
+    --blue: #7aa2ff;
+
+    --fg: var(--ink);
+    --muted: #9aa6b5;
+    --border: #182331;
+    --card-bg: #071018;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 960px;
+    margin: 2.5rem auto;
+    padding: 0 1rem 3rem;
+    line-height: 1.6;
+    color: var(--fg);
+    background:
+      radial-gradient(160% 120% at 20% 0%, #0f1722 0%, var(--bg) 55%),
+      radial-gradient(140% 100% at 80% 100%, #0d1a2b 0, #050a10 55%),
+      var(--bg);
+  }
+
+  header {
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .subtitle {
+    color: var(--muted);
+    margin-bottom: 1.25rem;
+  }
+
+  .tagline {
+    font-style: italic;
+    margin-bottom: 1.75rem;
+    color: var(--mint);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    background: var(--card-bg);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+  }
+
+  .card p {
+    margin: 0.3rem 0;
+  }
+
+  .mini {
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+
+  a {
+    color: var(--mint);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(104, 255, 179, 0.5);
+    padding-bottom: 1px;
+  }
+
+  a:hover {
+    border-bottom-color: var(--mint);
+  }
+
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.9em;
+    color: var(--blue);
+  }
+
+  nav {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  nav a {
+    margin-right: 1rem;
+    white-space: nowrap;
+  }
+
+  footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+</style>
+
 </head>
 <body>
   <header>
