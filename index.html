@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Coherence Theory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Coherence Theory: a geometric account of what it means for something to make sense, using sentences as observable traces of coherence.">
+  <style>
+    :root {
+      --fg: #111;
+      --muted: #555;
+      --border: #ddd;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 840px;
+      margin: 2.5rem auto;
+      padding: 0 1rem 3rem;
+      line-height: 1.6;
+      color: var(--fg);
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 0.2rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.3rem;
+    }
+    h3 {
+      margin-top: 1.2rem;
+      font-size: 1.05rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+    .tagline {
+      font-style: italic;
+      margin-bottom: 1.5rem;
+    }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.1rem;
+      margin: 1.5rem 0;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 0.75rem 0;
+    }
+    .pill {
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      padding: 0.2rem 0.7rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.9em;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Coherence Theory</h1>
+    <p class="subtitle">Early work by Liam Moloney (<code>TitanicParker</code>)</p>
+    <p class="tagline">
+      A geometric account of what it means for something to make sense.
+    </p>
+  </header>
+
+  <section>
+    <h2>What Coherence Theory asks</h2>
+    <div class="card">
+      <p>
+        Coherence Theory starts from a simple question:
+      </p>
+      <p><em>
+        When we say we “get” something, what has to be happening, structurally?
+      </em></p>
+      <p>
+        The working assumption is that coherence is not a vague feeling,
+        but the result of a small number of repeatable moves that can be
+        described geometrically.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>The core picture (very high level)</h2>
+    <p>
+      In this project, coherence is modelled as a finite set of
+      <strong>operators</strong> and <strong>invariants</strong>.
+    </p>
+
+    <h3>Operators</h3>
+    <p>
+      Operators are basic structural moves that understanding can make.
+      In its current form, Coherence Theory assumes six of them, playing
+      roles of roughly this kind:
+    </p>
+    <ul>
+      <li>opening a distinction,</li>
+      <li>expanding or elaborating that structure,</li>
+      <li>relating parts,</li>
+      <li>correcting or realigning,</li>
+      <li>integrating into a whole,</li>
+      <li>settling or closing.</li>
+    </ul>
+
+    <h3>Invariants and the 6×3×3 structure</h3>
+    <p>
+      When these operators act, they do not produce an unlimited variety
+      of outcomes. They stabilise in a finite set of
+      <strong>invariants</strong>—repeatable landing patterns of
+      coherence that feel “in place”.
+    </p>
+
+    <p>
+      The current working architecture is:
+    </p>
+    <ul>
+      <li>6 operators,</li>
+      <li>each with 3 submodes,</li>
+      <li>each submode with 3 invariants.</li>
+    </ul>
+    <p>
+      This gives <strong>6 × 3 × 3 = 54 invariants</strong>.
+    </p>
+
+    <div class="pill-row">
+      <span class="pill">6 operators</span>
+      <span class="pill">3 submodes each</span>
+      <span class="pill">3 invariants per submode</span>
+      <span class="pill">54 invariant forms of coherence</span>
+    </div>
+
+    <p>
+      The detailed list of invariants, their names, and worked examples
+      is being developed separately and will be published from this
+      repository as it stabilises.
+    </p>
+  </section>
+
+  <section>
+    <h2>Why sentences?</h2>
+    <p>
+      Sentences are treated here as the simplest observable traces of
+      coherence. Whenever a sentence “makes sense”, something structural
+      has already taken place:
+    </p>
+    <ul>
+      <li>a distinction has been opened,</li>
+      <li>possibilities have been expanded and constrained,</li>
+      <li>relations have been set up,</li>
+      <li>misfits have been corrected,</li>
+      <li>and the whole has come to rest in a stable pattern.</li>
+    </ul>
+    <p>
+      Coherence Theory reads each complete sentence as a finite walk
+      through its operator–invariant structure. The long-term aim is to
+      make this walk explicit enough that it can be studied, compared,
+      and tested across many kinds of language.
+    </p>
+  </section>
+
+  <section>
+    <h2>What this repository is (now)</h2>
+    <p>
+      At this stage, the repository is deliberately minimal. It provides:
+    </p>
+    <ul>
+      <li>a custom license for this early material (<code>LICENSE</code>),</li>
+      <li>a short project overview (<code>README.md</code>),</li>
+      <li>this conceptual landing page (<code>index.html</code>),</li>
+      <li>and, in time, draft documents on operators, invariants,
+          and sentence studies as they become stable enough to publish.</li>
+    </ul>
+    <p>
+      The emphasis is on clarity and correctness rather than completeness.
+      Everything here should be read as a public draft, not a finished
+      theory.
+    </p>
+  </section>
+
+  <section>
+    <h2>Direction of work</h2>
+    <p>
+      Ongoing work under the name <strong>Coherence Theory</strong>
+      includes:
+    </p>
+    <ul>
+      <li>sharpening the geometric description of the six operators,</li>
+      <li>articulating and naming the 54 invariants,</li>
+      <li>developing a method for walking individual sentences
+          through the structure,</li>
+      <li>and collecting example sentence studies that can be checked
+          and repeated by others.</li>
+    </ul>
+    <p>
+      As these pieces are clarified, they will be introduced gradually
+      into this repository.
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      Coherence Theory is an ongoing project by <strong>Liam Moloney</strong>
+      (<code>TitanicParker</code> on GitHub). Licensing for this early
+      material is defined in the <code>LICENSE</code> file in the
+      repository.
+    </p>
+  </footer>
+</body>
+</html>
