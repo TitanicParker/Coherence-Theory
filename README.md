@@ -1,4 +1,5 @@
-Coherence Theory — A Familiar Explanation of What We’ve Discovered
+Coherence Theory — A Familiar Explanation of what we already assume.
+
 Imagine someone asked you to explain how a sentence makes sense — not what it means, but how meaning itself holds together. For thousands of years we’ve taken this for granted. We speak, we listen, we read, we feel when a sentence “lands” or “comes together,” and we move on. No one ever questions how we knew the sentence was finished, or how we understood the relationships between its pieces. It’s as natural as breathing.
 Coherence Theory — or what we now call the Study of Sentences — says something simple but extremely powerful:
 
